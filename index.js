@@ -55,7 +55,7 @@ selectNextWord();
 updateGameState();
 
 //Add an event listener to handle user input//
-document.addEventListener('keypress', (event) => {
+document.addEventListener('keyup', (event) => {
   const userInput = event.key.toLowerCase();
 
 //Check if the user input is a letter//
